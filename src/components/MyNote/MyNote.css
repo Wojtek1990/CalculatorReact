@@ -1,0 +1,28 @@
+.mynote {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 352px;
+  max-height: 352px;
+  min-height: 350px;
+  width: 200px;
+  margin-top: 4px;
+  padding-top: 22px;
+}
+.mynote h2 {
+  color: rgb(250, 251, 255);
+  padding: 3px;
+}
+
+.mynote p {
+  margin-top: 15px;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 5px;
+}
+.mynote h3 {
+  margin-top: 20px;
+  color: rgb(250, 251, 255);
+}

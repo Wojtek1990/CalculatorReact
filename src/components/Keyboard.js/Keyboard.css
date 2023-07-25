@@ -1,0 +1,124 @@
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+label {
+  margin-left: 25px;
+}
+
+.notes {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 352px;
+  max-height: 352px;
+  min-height: 350px;
+  width: 200px;
+  margin-top: 4px;
+}
+.notes textarea {
+  background: rgb(5, 3, 0);
+  min-height: 352px;
+  resize: none;
+  color: white;
+}
+
+.notes textarea:focus {
+  color: white;
+  background: rgb(5, 3, 0);
+  caret-color: white;
+  border-color: #0080ff;
+}
+.notes::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  -webkit-text-fill-color: initial;
+}
+.keyboard {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 16, 6% 16, 6% 16, 6% 16, 6% 16, 6% 16, 6%;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.tilelight {
+  margin: 2px;
+  height: 45px;
+}
+.tilelight:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.tiledark {
+  margin: 2px;
+  height: 45px;
+  background-color: black;
+}
+.tiledark:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.tileconfirm {
+  margin: 2px;
+  height: 45px;
+  background-color: #0080ff;
+}
+
+.tileconfirm.active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.rescontainer {
+  padding-top: 0;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.res {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size:x-large;
+}
+.res:focus {
+  background: black;
+  color: white;
+
+  border-color: #0080ff;
+  caret-color: rgb(0, 0, 0);
+}
+
+.resultInput {
+  border: none;
+  background: black;
+  color: white;
+  font-size: smaller;
+  padding-right: 17px;
+}
+
+.resultInput:disabled {
+  border: none;
+  background: black;
+  color: white;
+  font-size: smaller;
+}
+.res::placeholder {
+  color: white;
+  font-size: bold;
+}
+.res::-webkit-outer-spin-button,
+.res::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.resultInvisible {
+  width: 0;
+  height: 0;
+}

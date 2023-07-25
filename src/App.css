@@ -1,0 +1,25 @@
+.App {
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    width: 550px;
+    height: 460px;
+    color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    padding: 8px;
+}
+
+/* .App {
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    width: 550px;
+    height: 465px;
+    color: white;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;; */
+/* } */
+

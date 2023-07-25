@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 6px;
+  align-items: column;
+}
+.header2 {
+  margin-top: 10px;
+}
